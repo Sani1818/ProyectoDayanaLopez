@@ -1,0 +1,141 @@
+body {
+	text-align: justify;
+	width: 960px;
+	margin: auto;
+}
+
+header, footer {
+border: 2px lightgray;
+display: block;
+background:yellow;
+text-align: center;
+font-family: sans-serif;
+clear: both;
+}
+
+.encabezado1{
+	color: moccasin;
+	font-size: 50px;
+	/*font-weight: bold;*/
+	font-family: Mistral;
+	color: black;
+}
+
+.encabezado2{
+	font-size: 25px;
+	color: black;
+	font-weight: lighter;
+	font-family: red;
+}
+
+.text{
+	font-family: arial;
+	color : brown;
+
+}
+
+h3 {
+	font-size: 15px;
+	font-weight: lighter;
+	font-family: sans-serif;
+	color: beige;
+}
+
+section {
+	border: 1px solid black;
+	width: 71%;
+	display: inline_block;
+	float: left;
+	margin: 1px;
+}
+
+article {
+	background : lightyellow;
+	padding: 5px;
+	margin: 10px;
+	background: orange;
+	margin-bottom: 10px;
+	border: 1px solid lightyellow;
+}
+
+article footer {
+	padding: 10px;
+	margin: 10px;
+	color: black;
+	background: green;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: justify;
+	border: 1px solid lightblue;
+}
+
+aside {
+	border: 1px solid black;
+	width: 28%;
+	display: inline_block;
+	float: left;
+	background: moccasin;
+	text-align: right;
+	margin: 1px;
+}
+
+p {
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	padding: 5px;
+	margin: 10px;
+	background-color:lightblue;
+}
+
+a {
+	color: #2b0c56;
+	padding: 5px;
+	display: block;
+}
+
+time {
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	color:pink;
+	padding: 10px;
+	font-style: italic;
+}
+
+
+img {
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;
+	border-radius: 50%;
+}
+
+figure {
+	padding: 0px;
+	margin: 0px;
+}
+
+.menu{ 
+	border: 3px solid blue;
+	font-size: medium;
+	font-family: Algerian;
+	color: white;
+	background:black;
+padding: 5px 50px;
+	list-style: none;
+
+}
+
+.menu li:hover { /*FUNCION HOVER PARA COMO UNA ANIMACION*/
+	padding: 10px;
+	margin: 0px;
+	color: orange;
+	background-color: red;
+align-items: center;
+	box-shadow: 0px 10px 20px rgba(255,255,255,1);
+
+
+}
+
